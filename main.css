@@ -1,0 +1,60 @@
+/* Box Model */
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+/* Basic */
+body, html {
+	margin: 0;
+	border: 0;
+}
+
+body {
+	font: 300 16px/26px Arial, sans-serif;
+	color: #444; 
+	min-height: 100vh;
+	width: 100%;
+}
+
+/* App styles */
+.app {
+	text-align: center;
+	min-height: 100vh;
+	width: 100%;
+	background-color: #f2f6ff;
+	padding: 30px 15px;
+}
+.app__inner {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 15px;
+	max-width: 420px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+}
+.app__avatar {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	border-radius: 100%;
+	overflow: hidden;
+	font-size: 0;
+	line-height: 0;
+}
+.app__avatar-img {
+	width: 100%;
+}
+.app__descr {
+	padding-top: 30px;
+}
+.app__name {
+	margin: 0 0 10px 0;
+	font-size: 28px;
+	font-weight: 400;
+}
+.app__text {
+
+}
